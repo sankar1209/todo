@@ -1,0 +1,51 @@
+.welcome {
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  height: 700px;
+  margin-bottom: 150px;
+}
+
+.welcome form {
+  margin-top: auto;
+  top: 40%;
+  left: 45%;
+  height: 100%;
+  position: fixed;
+}
+
+.welcome input {
+  height: 35px;
+  border-radius: 5px;
+}
+
+.welcome button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .welcome form {
+    left: 40%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .welcome form {
+    left: 35%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .welcome form {
+    left: 25%;
+  }
+}
