@@ -35,6 +35,7 @@ class EditTodo extends React.Component {
         if (res.status === 200) {
           console.log("Updated");
           this.props.cb();
+          this.handleClose();
         }
       });
   };
